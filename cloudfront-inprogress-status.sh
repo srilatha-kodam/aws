@@ -12,6 +12,7 @@ DEBUGMODE="0"
 # Check Command
 function check_command {
 	type -P $1 &>/dev/null || fail "Unable to find $1, please install it and run this script again."
+	echo " this is change"
 }
 
 # Completed
